@@ -1,0 +1,200 @@
+.dev-border {
+  border: solid 1px lightblue;
+}
+
+.dev-container-border {
+  border: solid 1px red;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container h1, .container h2, .container img, .container p {
+  text-align: center;
+  margin: 10px;
+}
+.container p {
+  text-align: justify;
+  padding: 10px 20px 10px 20px;
+}
+.container img {
+  object-fit: contain;
+}
+.container .icon {
+  object-fit: cover;
+  width: 50px;
+  height: 50px;
+}
+.container .info {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav {
+  position: fixed;
+  justify-content: center;
+  align-items: stretch;
+  max-height: 10vh;
+  width: 100%;
+  top: 0;
+  transform: translate(0, 0);
+  transition: transform 1s;
+}
+.nav .nav-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style-type: none;
+  padding: 10px 20px 10px 20px;
+}
+.nav .nav-list li {
+  margin: 10px;
+}
+.nav .nav-list li a {
+  text-decoration: none;
+}
+
+.nav-button {
+  flex-direction: row;
+  justify-content: flex-end;
+  cursor: pointer;
+  z-index: 100;
+  transform: translate(0, 0);
+  transition: transform 1s;
+}
+.nav-button i {
+  font-size: 2.5em;
+}
+
+.home {
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+.home h1 {
+  font-size: 80px;
+  text-align: center;
+  padding: 10px 20px 10px 20px;
+}
+
+.work .project .project-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.project {
+  width: 100vw;
+  height: 50vh;
+}
+
+.about {
+  width: 100vw;
+  height: 50vh;
+}
+
+.contact {
+  width: 100vw;
+  height: 50vh;
+}
+.contact .contact-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
+}
+.contact .contact-list li {
+  margin: 10px;
+  padding: 0;
+}
+.contact .contact-list p.contact-name {
+  margin: 0;
+  padding: 0;
+}
+
+.slideUp {
+  transform: translate(0, -300px);
+  transition-delay: 0;
+}
+
+.slideDown {
+  transition: translate(0, 10vh);
+  transition-delay: 0;
+}
+
+.nav ul {
+  background-color: #41B3A3;
+}
+.nav ul li a {
+  color: white;
+  font-weight: bold;
+}
+.nav ul li a:active {
+  color: gold;
+}
+.nav ul li a:visited {
+  color: white;
+}
+
+.home {
+  background-color: #41B3A3;
+  color: white;
+}
+
+.work .project:nth-child(odd) {
+  background-color: white;
+}
+.work .project:nth-child(even) {
+  background-color: #41B3A3;
+  color: white;
+}
+
+.contact {
+  background-color: #41B3A3;
+  color: white;
+}
+
+h1, h2 {
+  font-family: "Lobster", cursive;
+}
+
+.nav li a {
+  font-family: "Noto Sans", sans-serif;
+  font-family: "Lobster", cursive;
+  font-family: "Catamaran", sans-serif;
+  font-family: "Comfortaa", cursive;
+  font-weight: bolder;
+}
+
+.home h1 {
+  font-family: "Lobster", cursive;
+}
+
+.project h2 {
+  font-family: "Lobster", cursive;
+}
+
+@media screen and (min-width: 600px) {
+  .project {
+    height: 100vh;
+  }
+  .project .project-image {
+    width: 800px;
+    height: 400px;
+    object-fit: fill;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

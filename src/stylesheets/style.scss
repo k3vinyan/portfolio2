@@ -1,0 +1,336 @@
+.dev-border {
+    border: solid 1px lightblue;
+}
+
+.dev-container-border {
+    border: solid 1px red;
+}
+
+$default-padding: 10px 20px 10px 20px;
+$default-margin: 10px;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+// ------------------------------ Basic --------------------------------------------
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h1, h2, img, p {
+        text-align: center;
+        margin: $default-margin;
+    }
+
+    p {
+        text-align: justify;
+        padding: $default-padding;
+    }
+
+    img {
+        object-fit: contain;
+    }
+
+    .icon {
+        object-fit: cover;
+        width: 50px;
+        height: 50px;
+    }
+
+    .info {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+// ------------------------------ Individual Components --------------------------------------------
+
+.nav {
+    position: fixed;
+    justify-content: center;
+    align-items: stretch;
+    max-height: 10vh;
+    width: 100%;
+    top: 0;
+
+    transform: translate(0, 0);
+    transition: transform 1s;
+    
+    .nav-list {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        list-style-type: none;
+        padding: $default-padding;
+
+        li {
+            margin: $default-margin;
+            
+            a {
+                text-decoration: none;
+            }
+        }
+    }    
+}
+
+.nav-button {
+    flex-direction: row;
+    justify-content: flex-end;
+    cursor: pointer;
+    z-index: 100;
+
+    transform: translate(0, 0);
+    transition: transform 1s;
+    
+    i {
+        font-size: 2.5em;
+    }
+}
+
+
+
+
+.home {
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    width: 100vw;
+    height: 100vh;
+
+    h1 {
+        font-size: 80px;
+        text-align: center;
+        padding: $default-padding;
+    }
+}
+
+.work {
+
+    .project {
+
+        .project-info {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            .project-info-link {
+                
+            }
+        
+        }
+    }
+}
+
+
+.project {
+    width: 100vw;
+    height: 50vh; 
+ }
+ 
+.about {
+    width: 100vw;
+    height: 50vh;
+}
+
+.contact {
+    width: 100vw;
+    height: 50vh;
+
+    .contact-list {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        list-style: none;
+        
+        li {
+            margin: $default-margin;
+            padding: 0;  
+
+        }
+        p.contact-name {
+            margin: 0;
+            padding: 0;
+        }
+    }
+}
+
+
+// ------------------------------ Transitions/Animations -----------------------------------
+
+.slideUp {
+    transform: translate(0, -300px);
+    transition-delay: 0;
+}
+
+.slideDown {
+    transition: translate(0, 10vh);
+    transition-delay: 0;
+}
+
+
+
+// ------------------------------ Color Schemes --------------------------------------------
+
+$primary-color: red;
+$secondary-color: rgb(0, 89, 255);
+$tri-color: green;
+
+$white-color: rgb(255, 255, 255);
+$gray-color: grey;
+
+
+$green-color: #41B3A3;
+$purple-color: rgb(138, 79, 216);
+$orange-color: #E8A87C;
+$blue-color: #85CDCB;
+$red-color: #E27D60;
+
+.nav {
+    
+    ul {
+        background-color: $green-color;
+
+        li {
+            a {
+                color: $white-color;
+                font-weight: bold;
+
+                &:active {
+                    color: gold;
+                } 
+
+                &:visited {
+                    color: $white-color;
+                }
+            }
+        }
+    }
+}
+
+.nav-button {
+    //color: $purple-color;
+}
+
+.home {
+    background-color: $green-color;
+    color: $white-color;
+}
+
+.work {
+    
+    .project {
+
+        &:nth-child(odd) {
+            background-color: $white-color;
+        }
+        &:nth-child(even) {
+            background-color: $green-color;
+            color: $white-color;
+        }
+
+        
+    }
+}
+
+
+
+.about {
+    //background-color: $blue-color;
+}
+
+.contact {
+    background-color: $green-color;
+    color: $white-color;
+}
+
+
+// ------------------------------ Fonts --------------------------------------------
+
+// font-family: 'Noto Sans', sans-serif;
+// font-family: 'Josefin Sans', sans-serif;
+// font-family: 'Mukta', sans-serif;
+// font-family: 'Lobster', cursive;
+// font-family: 'Catamaran', sans-serif;
+// font-family: 'Abril Fatface', cursive;
+// font-family: 'Comfortaa', cursive;
+// font-family: 'Acme', sans-serif;
+// font-family: 'Righteous', cursive;
+// font-family: 'Sigmar One', cursive;
+// font-family: 'Chakra Petch', sans-serif;
+
+
+h1, h2 {
+    font-family: 'Lobster', cursive;
+}
+
+.nav {
+    li {
+        a {
+            font-family: 'Noto Sans', sans-serif;
+            //font-family: 'Josefin Sans', sans-serif;
+            // font-family: 'Mukta', sans-serif;
+             font-family: 'Lobster', cursive;
+             font-family: 'Catamaran', sans-serif;
+            font-family: 'Comfortaa', cursive;
+            font-weight: bolder;
+           // font-family: 'Acme', sans-serif; 
+           // font-family: 'Chakra Petch', sans-serif;
+        }
+    }
+
+    
+    
+}
+
+.home {
+    h1 {
+        //font-family: 'Noto Sans', sans-serif;
+        /// font-family: 'Josefin Sans', sans-serif;
+        // font-family: 'Mukta', sans-serif;
+        font-family: 'Lobster', cursive;
+        /// font-family: 'Catamaran', sans-serif;
+        // font-family: 'Abril Fatface', cursive;
+        /// font-family: 'Comfortaa', cursive;
+        // font-family: 'Acme', sans-serif;
+        // font-family: 'Righteous', cursive;
+        // font-family: 'Sigmar One', cursive;
+        //font-family: 'Chakra Petch', sans-serif;
+    }
+}
+
+.project {
+    h2 {
+        //font-family: 'Noto Sans', sans-serif;
+        /// font-family: 'Josefin Sans', sans-serif;
+        // font-family: 'Mukta', sans-serif;
+        font-family: 'Lobster', cursive;
+        /// font-family: 'Catamaran', sans-serif;
+        // font-family: 'Abril Fatface', cursive;
+        /// font-family: 'Comfortaa', cursive;
+        // font-family: 'Acme', sans-serif;
+        // font-family: 'Righteous', cursive;
+        // font-family: 'Sigmar One', cursive;
+         //font-family: 'Chakra Petch', sans-serif;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .project {
+        height: 100vh;
+
+        .project-image {
+            width: 800px;
+            height: 400px;
+            object-fit: fill;
+        }
+    }
+  } 

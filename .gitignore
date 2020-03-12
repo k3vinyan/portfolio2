@@ -1,0 +1,6 @@
+node_modules
+dist/*.jpg
+dist/*.jpeg
+dist/*.png
+dist/*.svg
+dist/*.gif
