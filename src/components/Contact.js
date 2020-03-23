@@ -1,9 +1,8 @@
 import React from 'react'
 
-
-import linkedinIcon from '../images/linkedin-icon.jpg'
-import GithubIcon from '../images/github-icon2.png'
-import gmailIcon from '../images/gmail-icon.jpg'
+import GithubIcon from '../images/icons/github-icon-border.png'
+import gmailIcon from '../images/icons/gmail-icon.png'
+import linkedinIcon from '../images/icons/linkedln-icon.png'
 
 const Contact = () => {
     return(
@@ -15,7 +14,7 @@ const Contact = () => {
                 <ul className="contact-list">
                     <li>
                         <a href="mailto:k3vinyan@gmail.com" target="_blank">
-                            <img src={gmailIcon} className="icon" alt="gmail icon" />
+                            <img src={gmailIcon} className="gmail icon" alt="gmail icon" />
                         </a>
                     </li>
                     <li>

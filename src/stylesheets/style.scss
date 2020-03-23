@@ -1,11 +1,3 @@
-.dev-border {
-    border: solid 1px lightblue;
-}
-
-.dev-container-border {
-    border: solid 1px red;
-}
-
 $default-padding: 10px 20px 10px 20px;
 $default-margin: 10px;
 
@@ -39,7 +31,7 @@ $default-margin: 10px;
     }
 
     .icon {
-        object-fit: cover;
+        object-fit: fill;
         width: 50px;
         height: 50px;
     }
@@ -60,6 +52,7 @@ $default-margin: 10px;
     max-height: 10vh;
     width: 100%;
     top: 0;
+    left: 0;
 
     transform: translate(0, 0);
     transition: transform 1s;
@@ -116,6 +109,14 @@ $default-margin: 10px;
 
     .project {
 
+        .project-image {
+            width: 800px;
+            height: auto;
+            object-fit: cover;
+           // border-radius: 10px;
+           // border: 5px solid white;
+        }
+
         .project-info {
             display: flex;
             flex-direction: column;
@@ -133,7 +134,7 @@ $default-margin: 10px;
 
 .project {
     width: 100vw;
-    height: 50vh; 
+    height: 100vh; 
  }
  
 .about {
@@ -216,10 +217,6 @@ $red-color: #E27D60;
     }
 }
 
-.nav-button {
-    //color: $purple-color;
-}
-
 .home {
     background-color: $green-color;
     color: $white-color;
@@ -231,20 +228,25 @@ $red-color: #E27D60;
 
         &:nth-child(odd) {
             background-color: $white-color;
+            
+            h2 {
+                color: $green-color;
+            }
+
+            .icon {
+                color: $green-color;
+              //  border: 5px solid black;
+            }
+
+            .project-image {
+                border-radius: 5px;
+            }
         }
         &:nth-child(even) {
             background-color: $green-color;
             color: $white-color;
         }
-
-        
     }
-}
-
-
-
-.about {
-    //background-color: $blue-color;
 }
 
 .contact {
@@ -252,38 +254,21 @@ $red-color: #E27D60;
     color: $white-color;
 }
 
-
 // ------------------------------ Fonts --------------------------------------------
 
-// font-family: 'Noto Sans', sans-serif;
-// font-family: 'Josefin Sans', sans-serif;
-// font-family: 'Mukta', sans-serif;
-// font-family: 'Lobster', cursive;
-// font-family: 'Catamaran', sans-serif;
-// font-family: 'Abril Fatface', cursive;
-// font-family: 'Comfortaa', cursive;
-// font-family: 'Acme', sans-serif;
-// font-family: 'Righteous', cursive;
-// font-family: 'Sigmar One', cursive;
-// font-family: 'Chakra Petch', sans-serif;
-
-
-h1, h2 {
+.home h1, .project h2 {
     font-family: 'Lobster', cursive;
 }
 
 .nav {
     li {
         a {
-            font-family: 'Noto Sans', sans-serif;
-            //font-family: 'Josefin Sans', sans-serif;
-            // font-family: 'Mukta', sans-serif;
-             font-family: 'Lobster', cursive;
-             font-family: 'Catamaran', sans-serif;
+            // font-family: 'Noto Sans', sans-serif;
+            // font-family: 'Lobster', cursive;
+            // font-family: 'Catamaran', sans-serif;
             font-family: 'Comfortaa', cursive;
             font-weight: bolder;
-           // font-family: 'Acme', sans-serif; 
-           // font-family: 'Chakra Petch', sans-serif;
+
         }
     }
 
@@ -291,46 +276,21 @@ h1, h2 {
     
 }
 
-.home {
-    h1 {
-        //font-family: 'Noto Sans', sans-serif;
-        /// font-family: 'Josefin Sans', sans-serif;
-        // font-family: 'Mukta', sans-serif;
-        font-family: 'Lobster', cursive;
-        /// font-family: 'Catamaran', sans-serif;
-        // font-family: 'Abril Fatface', cursive;
-        /// font-family: 'Comfortaa', cursive;
-        // font-family: 'Acme', sans-serif;
-        // font-family: 'Righteous', cursive;
-        // font-family: 'Sigmar One', cursive;
-        //font-family: 'Chakra Petch', sans-serif;
-    }
-}
+// ------------------------------ mobile --------------------------------------------
 
-.project {
-    h2 {
-        //font-family: 'Noto Sans', sans-serif;
-        /// font-family: 'Josefin Sans', sans-serif;
-        // font-family: 'Mukta', sans-serif;
-        font-family: 'Lobster', cursive;
-        /// font-family: 'Catamaran', sans-serif;
-        // font-family: 'Abril Fatface', cursive;
-        /// font-family: 'Comfortaa', cursive;
-        // font-family: 'Acme', sans-serif;
-        // font-family: 'Righteous', cursive;
-        // font-family: 'Sigmar One', cursive;
-         //font-family: 'Chakra Petch', sans-serif;
-    }
-}
 
-@media screen and (min-width: 600px) {
-    .project {
-        height: 100vh;
-
-        .project-image {
-            width: 800px;
-            height: 400px;
-            object-fit: fill;
+@media screen and (max-width: 600px) {
+    
+    div.work {
+        div.project {
+            height: 100vh;
+    
+    
+            img.project-image {
+                width: 90%;
+                margin: $default-margin;
+            }
         }
-    }
+    }    
+    
   } 

@@ -105,7 +105,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var reac
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \".dev-border {\\n  border: solid 1px lightblue;\\n}\\n\\n.dev-container-border {\\n  border: solid 1px red;\\n}\\n\\n* {\\n  margin: 0;\\n  padding: 0;\\n  box-sizing: border-box;\\n  font-family: \\\"Open Sans\\\", sans-serif;\\n}\\n\\n.container {\\n  display: flex;\\n  flex-direction: column;\\n  justify-content: center;\\n  align-items: center;\\n}\\n.container h1, .container h2, .container img, .container p {\\n  text-align: center;\\n  margin: 10px;\\n}\\n.container p {\\n  text-align: justify;\\n  padding: 10px 20px 10px 20px;\\n}\\n.container img {\\n  object-fit: contain;\\n}\\n.container .icon {\\n  object-fit: cover;\\n  width: 50px;\\n  height: 50px;\\n}\\n.container .info {\\n  display: flex;\\n  flex-direction: column;\\n}\\n\\n.nav {\\n  position: fixed;\\n  justify-content: center;\\n  align-items: stretch;\\n  max-height: 10vh;\\n  width: 100%;\\n  top: 0;\\n  transform: translate(0, 0);\\n  transition: transform 1s;\\n}\\n.nav .nav-list {\\n  display: flex;\\n  flex-direction: row;\\n  justify-content: center;\\n  list-style-type: none;\\n  padding: 10px 20px 10px 20px;\\n}\\n.nav .nav-list li {\\n  margin: 10px;\\n}\\n.nav .nav-list li a {\\n  text-decoration: none;\\n}\\n\\n.nav-button {\\n  flex-direction: row;\\n  justify-content: flex-end;\\n  cursor: pointer;\\n  z-index: 100;\\n  transform: translate(0, 0);\\n  transition: transform 1s;\\n}\\n.nav-button i {\\n  font-size: 2.5em;\\n}\\n\\n.home {\\n  align-items: center;\\n  justify-content: center;\\n  align-content: center;\\n  width: 100vw;\\n  height: 100vh;\\n}\\n.home h1 {\\n  font-size: 80px;\\n  text-align: center;\\n  padding: 10px 20px 10px 20px;\\n}\\n\\n.work .project .project-info {\\n  display: flex;\\n  flex-direction: column;\\n  justify-content: center;\\n  align-items: center;\\n}\\n.project {\\n  width: 100vw;\\n  height: 50vh;\\n}\\n\\n.about {\\n  width: 100vw;\\n  height: 50vh;\\n}\\n\\n.contact {\\n  width: 100vw;\\n  height: 50vh;\\n}\\n.contact .contact-list {\\n  display: flex;\\n  flex-direction: row;\\n  align-items: center;\\n  list-style: none;\\n}\\n.contact .contact-list li {\\n  margin: 10px;\\n  padding: 0;\\n}\\n.contact .contact-list p.contact-name {\\n  margin: 0;\\n  padding: 0;\\n}\\n\\n.slideUp {\\n  transform: translate(0, -300px);\\n  transition-delay: 0;\\n}\\n\\n.slideDown {\\n  transition: translate(0, 10vh);\\n  transition-delay: 0;\\n}\\n\\n.nav ul {\\n  background-color: #41B3A3;\\n}\\n.nav ul li a {\\n  color: white;\\n  font-weight: bold;\\n}\\n.nav ul li a:active {\\n  color: gold;\\n}\\n.nav ul li a:visited {\\n  color: white;\\n}\\n\\n.home {\\n  background-color: #41B3A3;\\n  color: white;\\n}\\n\\n.work .project:nth-child(odd) {\\n  background-color: white;\\n}\\n.work .project:nth-child(even) {\\n  background-color: #41B3A3;\\n  color: white;\\n}\\n\\n.contact {\\n  background-color: #41B3A3;\\n  color: white;\\n}\\n\\nh1, h2 {\\n  font-family: \\\"Lobster\\\", cursive;\\n}\\n\\n.nav li a {\\n  font-family: \\\"Noto Sans\\\", sans-serif;\\n  font-family: \\\"Lobster\\\", cursive;\\n  font-family: \\\"Catamaran\\\", sans-serif;\\n  font-family: \\\"Comfortaa\\\", cursive;\\n  font-weight: bolder;\\n}\\n\\n.home h1 {\\n  font-family: \\\"Lobster\\\", cursive;\\n}\\n\\n.project h2 {\\n  font-family: \\\"Lobster\\\", cursive;\\n}\\n\\n@media only screen and (min-width: 600px) {\\n  body {\\n    background-color: lightblue !important;\\n  }\\n}\\n\", \"\"]);\n// Exports\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/stylesheets/style.css?./node_modules/css-loader/dist/cjs.js");
+eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \"* {\\n  margin: 0;\\n  padding: 0;\\n  box-sizing: border-box;\\n  font-family: \\\"Open Sans\\\", sans-serif;\\n}\\n\\n.container {\\n  display: flex;\\n  flex-direction: column;\\n  justify-content: center;\\n  align-items: center;\\n}\\n.container h1, .container h2, .container img, .container p {\\n  text-align: center;\\n  margin: 10px;\\n}\\n.container p {\\n  text-align: justify;\\n  padding: 10px 20px 10px 20px;\\n}\\n.container img {\\n  object-fit: contain;\\n}\\n.container .icon {\\n  object-fit: fill;\\n  width: 50px;\\n  height: 50px;\\n}\\n.container .info {\\n  display: flex;\\n  flex-direction: column;\\n}\\n\\n.nav {\\n  position: fixed;\\n  justify-content: center;\\n  align-items: stretch;\\n  max-height: 10vh;\\n  width: 100%;\\n  top: 0;\\n  left: 0;\\n  transform: translate(0, 0);\\n  transition: transform 1s;\\n}\\n.nav .nav-list {\\n  display: flex;\\n  flex-direction: row;\\n  justify-content: center;\\n  list-style-type: none;\\n  padding: 10px 20px 10px 20px;\\n}\\n.nav .nav-list li {\\n  margin: 10px;\\n}\\n.nav .nav-list li a {\\n  text-decoration: none;\\n}\\n\\n.nav-button {\\n  flex-direction: row;\\n  justify-content: flex-end;\\n  cursor: pointer;\\n  z-index: 100;\\n  transform: translate(0, 0);\\n  transition: transform 1s;\\n}\\n.nav-button i {\\n  font-size: 2.5em;\\n}\\n\\n.home {\\n  align-items: center;\\n  justify-content: center;\\n  align-content: center;\\n  width: 100vw;\\n  height: 100vh;\\n}\\n.home h1 {\\n  font-size: 80px;\\n  text-align: center;\\n  padding: 10px 20px 10px 20px;\\n}\\n\\n.work .project .project-image {\\n  width: 800px;\\n  height: auto;\\n  object-fit: cover;\\n}\\n.work .project .project-info {\\n  display: flex;\\n  flex-direction: column;\\n  justify-content: center;\\n  align-items: center;\\n}\\n.project {\\n  width: 100vw;\\n  height: 100vh;\\n}\\n\\n.about {\\n  width: 100vw;\\n  height: 50vh;\\n}\\n\\n.contact {\\n  width: 100vw;\\n  height: 50vh;\\n}\\n.contact .contact-list {\\n  display: flex;\\n  flex-direction: row;\\n  align-items: center;\\n  list-style: none;\\n}\\n.contact .contact-list li {\\n  margin: 10px;\\n  padding: 0;\\n}\\n.contact .contact-list p.contact-name {\\n  margin: 0;\\n  padding: 0;\\n}\\n\\n.slideUp {\\n  transform: translate(0, -300px);\\n  transition-delay: 0;\\n}\\n\\n.slideDown {\\n  transition: translate(0, 10vh);\\n  transition-delay: 0;\\n}\\n\\n.nav ul {\\n  background-color: #41B3A3;\\n}\\n.nav ul li a {\\n  color: white;\\n  font-weight: bold;\\n}\\n.nav ul li a:active {\\n  color: gold;\\n}\\n.nav ul li a:visited {\\n  color: white;\\n}\\n\\n.home {\\n  background-color: #41B3A3;\\n  color: white;\\n}\\n\\n.work .project:nth-child(odd) {\\n  background-color: white;\\n}\\n.work .project:nth-child(odd) h2 {\\n  color: #41B3A3;\\n}\\n.work .project:nth-child(odd) .icon {\\n  color: #41B3A3;\\n}\\n.work .project:nth-child(odd) .project-image {\\n  border-radius: 5px;\\n}\\n.work .project:nth-child(even) {\\n  background-color: #41B3A3;\\n  color: white;\\n}\\n\\n.contact {\\n  background-color: #41B3A3;\\n  color: white;\\n}\\n\\n.home h1, .project h2 {\\n  font-family: \\\"Lobster\\\", cursive;\\n}\\n\\n.nav li a {\\n  font-family: \\\"Comfortaa\\\", cursive;\\n  font-weight: bolder;\\n}\\n\\n@media screen and (max-width: 600px) {\\n  div.work div.project {\\n    height: 100vh;\\n  }\\n  div.work div.project img.project-image {\\n    width: 90%;\\n    margin: 10px;\\n  }\\n}\\n\", \"\"]);\n// Exports\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/stylesheets/style.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -405,7 +405,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var reac
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _images_linkedin_icon_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../images/linkedin-icon.jpg */ \"./src/images/linkedin-icon.jpg\");\n/* harmony import */ var _images_github_icon2_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../images/github-icon2.png */ \"./src/images/github-icon2.png\");\n/* harmony import */ var _images_gmail_icon_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../images/gmail-icon.jpg */ \"./src/images/gmail-icon.jpg\");\n\n\n\n\n\nvar Contact = function Contact() {\n  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"container contact change-color\",\n    id: \"Contact\"\n  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"h1\", {\n    className: \"contact-header\"\n  }, \"Contact\"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"contact-info info\"\n  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"img\", {\n    className: \"contact-img\",\n    src: \"http://via.placeholder.com/100\"\n  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"h2\", {\n    className: \"contact-name\"\n  }, \"Makeven Yan\"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"ul\", {\n    className: \"contact-list\"\n  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"li\", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"a\", {\n    href: \"mailto:k3vinyan@gmail.com\",\n    target: \"_blank\"\n  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"img\", {\n    src: _images_gmail_icon_jpg__WEBPACK_IMPORTED_MODULE_3__[\"default\"],\n    className: \"icon\",\n    alt: \"gmail icon\"\n  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"li\", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"a\", {\n    href: \"https://github.com/k3vinyan\",\n    target: \"_blank\"\n  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"img\", {\n    src: _images_github_icon2_png__WEBPACK_IMPORTED_MODULE_2__[\"default\"],\n    className: \"icon\",\n    alt: \"github icon\"\n  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"li\", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"a\", {\n    href: \"https://www.linkedin.com/in/k3vinyan\",\n    target: \"_blank\"\n  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"img\", {\n    src: _images_linkedin_icon_jpg__WEBPACK_IMPORTED_MODULE_1__[\"default\"],\n    className: \"icon\",\n    alt: \"linkedin icon\"\n  }))))));\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (Contact);\n\n//# sourceURL=webpack:///./src/components/Contact.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _images_icons_github_icon_border_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../images/icons/github-icon-border.png */ \"./src/images/icons/github-icon-border.png\");\n/* harmony import */ var _images_icons_gmail_icon_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../images/icons/gmail-icon.png */ \"./src/images/icons/gmail-icon.png\");\n/* harmony import */ var _images_icons_linkedln_icon_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../images/icons/linkedln-icon.png */ \"./src/images/icons/linkedln-icon.png\");\n\n\n\n\n\nvar Contact = function Contact() {\n  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"container contact change-color\",\n    id: \"Contact\"\n  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"h1\", {\n    className: \"contact-header\"\n  }, \"Contact\"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"contact-info info\"\n  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"img\", {\n    className: \"contact-img\",\n    src: \"http://via.placeholder.com/100\"\n  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"h2\", {\n    className: \"contact-name\"\n  }, \"Makeven Yan\"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"ul\", {\n    className: \"contact-list\"\n  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"li\", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"a\", {\n    href: \"mailto:k3vinyan@gmail.com\",\n    target: \"_blank\"\n  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"img\", {\n    src: _images_icons_gmail_icon_png__WEBPACK_IMPORTED_MODULE_2__[\"default\"],\n    className: \"gmail icon\",\n    alt: \"gmail icon\"\n  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"li\", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"a\", {\n    href: \"https://github.com/k3vinyan\",\n    target: \"_blank\"\n  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"img\", {\n    src: _images_icons_github_icon_border_png__WEBPACK_IMPORTED_MODULE_1__[\"default\"],\n    className: \"icon\",\n    alt: \"github icon\"\n  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"li\", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"a\", {\n    href: \"https://www.linkedin.com/in/k3vinyan\",\n    target: \"_blank\"\n  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"img\", {\n    src: _images_icons_linkedln_icon_png__WEBPACK_IMPORTED_MODULE_3__[\"default\"],\n    className: \"icon\",\n    alt: \"linkedin icon\"\n  }))))));\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (Contact);\n\n//# sourceURL=webpack:///./src/components/Contact.js?");
 
 /***/ }),
 
@@ -441,67 +441,211 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var reac
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var uuid__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! uuid */ \"./node_modules/uuid/dist/esm-browser/index.js\");\n/* harmony import */ var _images_github_icon2_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../images/github-icon2.png */ \"./src/images/github-icon2.png\");\n/* harmony import */ var _images_league_icon_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../images/league-icon.svg */ \"./src/images/league-icon.svg\");\n/* harmony import */ var _images_codepen_icon_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../images/codepen-icon.png */ \"./src/images/codepen-icon.png\");\n\n\n\n\n\nvar defaultProjects = [{\n  title: \"Hack1n-Slash\",\n  description: \"Gamified coding application that allows users to improve their accuracy and speed while writing code based offof code samples fetched from public GitHub repository.\",\n  githubLink: \"https://github.com/hdngo/TeamHACKIN\",\n  appLink: \"https://hack1n-slash.herokuapp.com/\",\n  appIcon: \"https://via.placeholder.com/50\"\n}, {\n  title: \"League Champions Lookup\",\n  description: \"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat\",\n  githubLink: \"\",\n  appLink: _images_league_icon_svg__WEBPACK_IMPORTED_MODULE_3__[\"default\"],\n  appIcon: _images_league_icon_svg__WEBPACK_IMPORTED_MODULE_3__[\"default\"]\n}, {\n  title: \"flashcard\",\n  description: \"Ipsum veniam incididunt voluptate enim laborum occaecat eiusmod dolore aliqua magna duis nostrud.\",\n  githubLink: \"\",\n  appLink: \"\",\n  appIcon: \"https://via.placeholder.com/50\"\n}, {\n  title: \"Code Pen Projects\",\n  description: \"Commodo eiusmod ut irure proident fugiat consectetur duis.\",\n  githubLink: \"\",\n  appLink: \"https://codepen.io/dashboard/\",\n  appIcon: _images_codepen_icon_png__WEBPACK_IMPORTED_MODULE_4__[\"default\"]\n}];\n\nvar Project = function Project(_ref) {\n  var title = _ref.title,\n      description = _ref.description,\n      githubLink = _ref.githubLink,\n      appLink = _ref.appLink,\n      appIcon = _ref.appIcon;\n  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"container project change-color\"\n  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"img\", {\n    className: \"project-image\",\n    src: \"https://via.placeholder.com/100\"\n  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"project-info info\"\n  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"h2\", null, title), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"project-info-link\"\n  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"a\", {\n    href: githubLink\n  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"img\", {\n    src: _images_github_icon2_png__WEBPACK_IMPORTED_MODULE_2__[\"default\"],\n    className: \"icon\",\n    alt: \"github icon\"\n  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"a\", {\n    href: appLink\n  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"img\", {\n    className: \"icon\",\n    src: appIcon,\n    alt: \"app icon\"\n  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"p\", null, description)));\n};\n\nvar Work = function Work(_ref2) {\n  var projects = _ref2.projects;\n  var work = defaultProjects || projects;\n  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"container work\",\n    id: \"Projects\"\n  }, work.map(function (_ref3) {\n    var title = _ref3.title,\n        description = _ref3.description,\n        githubLink = _ref3.githubLink,\n        appLink = _ref3.appLink,\n        appIcon = _ref3.appIcon;\n    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Project, {\n      key: Object(uuid__WEBPACK_IMPORTED_MODULE_1__[\"v4\"])(),\n      title: title,\n      description: description,\n      githubLink: githubLink,\n      appLink: appLink,\n      appIcon: appIcon\n    });\n  }));\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (Work);\n\n//# sourceURL=webpack:///./src/components/Work.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var uuid__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! uuid */ \"./node_modules/uuid/dist/esm-browser/index.js\");\n/* harmony import */ var _images_icons_league_icon_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../images/icons/league-icon.svg */ \"./src/images/icons/league-icon.svg\");\n/* harmony import */ var _images_icons_codepen_icon_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../images/icons/codepen-icon.png */ \"./src/images/icons/codepen-icon.png\");\n/* harmony import */ var _images_icons_github_icon_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../images/icons/github-icon.png */ \"./src/images/icons/github-icon.png\");\n/* harmony import */ var _images_icons_gmail_icon_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../images/icons/gmail-icon.png */ \"./src/images/icons/gmail-icon.png\");\n/* harmony import */ var _images_projects_league_league_desktop_1_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../images/projects/league/league-desktop-1.png */ \"./src/images/projects/league/league-desktop-1.png\");\n/* harmony import */ var _images_projects_league_league_desktop_2_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../images/projects/league/league-desktop-2.png */ \"./src/images/projects/league/league-desktop-2.png\");\n/* harmony import */ var _images_projects_league_league_desktop_3_png__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../images/projects/league/league-desktop-3.png */ \"./src/images/projects/league/league-desktop-3.png\");\n/* harmony import */ var _images_projects_league_league_desktop_4_png__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../images/projects/league/league-desktop-4.png */ \"./src/images/projects/league/league-desktop-4.png\");\n/* harmony import */ var _images_projects_flashcards_flashcards_desktop_1_png__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../images/projects/flashcards/flashcards-desktop-1.png */ \"./src/images/projects/flashcards/flashcards-desktop-1.png\");\n/* harmony import */ var _images_projects_flashcards_flashcards_desktop_2_png__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../images/projects/flashcards/flashcards-desktop-2.png */ \"./src/images/projects/flashcards/flashcards-desktop-2.png\");\n/* harmony import */ var _images_projects_flashcards_flashcards_mobile_1_png__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../images/projects/flashcards/flashcards-mobile-1.png */ \"./src/images/projects/flashcards/flashcards-mobile-1.png\");\n/* harmony import */ var _images_projects_flashcards_flashcards_mobile_2_png__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../images/projects/flashcards/flashcards-mobile-2.png */ \"./src/images/projects/flashcards/flashcards-mobile-2.png\");\n/* harmony import */ var _images_projects_codepen_codepen_desktop_1_png__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../images/projects/codepen/codepen-desktop-1.png */ \"./src/images/projects/codepen/codepen-desktop-1.png\");\n/* harmony import */ var _images_projects_hackinslash_hackin_desktop_1_png__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../images/projects/hackinslash/hackin-desktop-1.png */ \"./src/images/projects/hackinslash/hackin-desktop-1.png\");\n/* harmony import */ var _images_projects_league_league_mobile_1_png__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../images/projects/league/league-mobile-1.png */ \"./src/images/projects/league/league-mobile-1.png\");\n\n //icon\n// import githubIcon from '../images/icons/github-icon2.png'\n// import githubIcon2 from '../images/icons/github-icon.png'\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar defaultProjects = [{\n  title: \"League Champions Lookup\",\n  description: [\"An application that uses Riot Games' Data Dragon api.\"],\n  githubLink: \"https://github.com/k3vinyan/league-Search\",\n  appLink: \"https://leaguelookup.herokuapp.com/\",\n  technologies: [\"React\", \"Webpack\", \"JavaScript\", \"CSS\", \"HTML5\", \"SCSS\"],\n  appImage: {\n    desktop: _images_projects_league_league_desktop_3_png__WEBPACK_IMPORTED_MODULE_8__[\"default\"],\n    mobile: _images_projects_league_league_mobile_1_png__WEBPACK_IMPORTED_MODULE_16__[\"default\"]\n  },\n  appIcon: _images_icons_league_icon_svg__WEBPACK_IMPORTED_MODULE_2__[\"default\"]\n}, {\n  title: \"Flashcards\",\n  description: [\"Ipsum veniam incididunt voluptate enim laborum occaecat eiusmod dolore aliqua magna duis nostrud.\"],\n  githubLink: \"https://github.com/k3vinyan/codepen-projects\",\n  technologies: [\"Vue\", \"Express\", \"MongoDB\", \"Mongoose\", \"JavaScript\", \"CSS\", \"HTML5\", \"SCSS\"],\n  appImage: {\n    desktop: _images_projects_flashcards_flashcards_desktop_1_png__WEBPACK_IMPORTED_MODULE_10__[\"default\"],\n    mobile: _images_projects_flashcards_flashcards_mobile_1_png__WEBPACK_IMPORTED_MODULE_12__[\"default\"]\n  },\n  appLink: \"\",\n  appIcon: \"https://via.placeholder.com/50\"\n}, {\n  title: \"Code Pen Projects\",\n  description: [\"Mini Projects using vanilla languages with a focus on front-end development\"],\n  githubLink: \"https://github.com/k3vinyan/codepen-projects\",\n  technologies: [\"JavaScript\", \"CSS\", \"HTML5\"],\n  appImage: {\n    desktop: _images_projects_codepen_codepen_desktop_1_png__WEBPACK_IMPORTED_MODULE_14__[\"default\"],\n    mobile: null\n  },\n  appLink: \"https://codepen.io/dashboard/\",\n  appIcon: _images_icons_codepen_icon_png__WEBPACK_IMPORTED_MODULE_3__[\"default\"]\n}, {\n  title: \"Hack1n-Slash\",\n  description: [\"Gamified coding application that allows users to improve their accuracy and speed while writing code based offof code samples fetched from public GitHub repository.\"],\n  githubLink: \"https://github.com/hdngo/TeamHACKIN\",\n  technologies: [\"Ruby\", \"HTML\", \"CSS\", \"JAVASCRIPT\", \"JQuery\"],\n  appLink: \"https://hack1n-slash.herokuapp.com/\",\n  appImage: {\n    desktop: _images_projects_hackinslash_hackin_desktop_1_png__WEBPACK_IMPORTED_MODULE_15__[\"default\"],\n    mobile: null\n  },\n  appIcon: \"https://via.placeholder.com/50\"\n}];\n\nvar Project = function Project(_ref) {\n  var title = _ref.title,\n      description = _ref.description,\n      technologies = _ref.technologies,\n      githubLink = _ref.githubLink,\n      appLink = _ref.appLink,\n      appImage = _ref.appImage,\n      appIcon = _ref.appIcon;\n  var desktop = appImage.desktop,\n      mobile = appImage.mobile;\n  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"container project change-color\"\n  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"img\", {\n    className: \"project-image\",\n    src: desktop\n  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"project-info info\"\n  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"h2\", null, title), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"project-info-link\"\n  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"a\", {\n    href: githubLink\n  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"img\", {\n    src: _images_icons_github_icon_png__WEBPACK_IMPORTED_MODULE_4__[\"default\"],\n    className: \"icon\",\n    alt: \"github icon\"\n  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"a\", {\n    href: appLink\n  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"img\", {\n    className: \"icon\",\n    src: appIcon,\n    alt: \"app icon\"\n  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"p\", {\n    className: \"project-description\"\n  }, description), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"p\", {\n    className: \"project-technologies\"\n  }, \"Technologies: \", technologies.join(\", \"))));\n};\n\nvar Work = function Work(_ref2) {\n  var projects = _ref2.projects;\n  var work = defaultProjects || projects;\n  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"container work\",\n    id: \"Projects\"\n  }, work.map(function (_ref3) {\n    var title = _ref3.title,\n        description = _ref3.description,\n        technologies = _ref3.technologies,\n        githubLink = _ref3.githubLink,\n        appLink = _ref3.appLink,\n        appImage = _ref3.appImage,\n        appIcon = _ref3.appIcon;\n    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Project, {\n      key: Object(uuid__WEBPACK_IMPORTED_MODULE_1__[\"v4\"])(),\n      title: title,\n      description: description,\n      technologies: technologies,\n      githubLink: githubLink,\n      appLink: appLink,\n      appImage: appImage,\n      appIcon: appIcon\n    });\n  }));\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (Work);\n\n//# sourceURL=webpack:///./src/components/Work.js?");
 
 /***/ }),
 
-/***/ "./src/images/codepen-icon.png":
-/*!*************************************!*\
-  !*** ./src/images/codepen-icon.png ***!
-  \*************************************/
+/***/ "./src/images/icons/codepen-icon.png":
+/*!*******************************************!*\
+  !*** ./src/images/icons/codepen-icon.png ***!
+  \*******************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"1d7909af344af44cfbc2b23bce59e71a.png\");\n\n//# sourceURL=webpack:///./src/images/codepen-icon.png?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"1d7909af344af44cfbc2b23bce59e71a.png\");\n\n//# sourceURL=webpack:///./src/images/icons/codepen-icon.png?");
 
 /***/ }),
 
-/***/ "./src/images/github-icon2.png":
-/*!*************************************!*\
-  !*** ./src/images/github-icon2.png ***!
-  \*************************************/
+/***/ "./src/images/icons/github-icon-border.png":
+/*!*************************************************!*\
+  !*** ./src/images/icons/github-icon-border.png ***!
+  \*************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"9ac279f97fd30bde7b19709196d0a23c.png\");\n\n//# sourceURL=webpack:///./src/images/github-icon2.png?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"c6d048559f48183a5a67dfb8e4fd4f03.png\");\n\n//# sourceURL=webpack:///./src/images/icons/github-icon-border.png?");
 
 /***/ }),
 
-/***/ "./src/images/gmail-icon.jpg":
-/*!***********************************!*\
-  !*** ./src/images/gmail-icon.jpg ***!
-  \***********************************/
+/***/ "./src/images/icons/github-icon.png":
+/*!******************************************!*\
+  !*** ./src/images/icons/github-icon.png ***!
+  \******************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"5e2c86d75f5930809c6659420c06a128.jpg\");\n\n//# sourceURL=webpack:///./src/images/gmail-icon.jpg?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"06bd5841bbd2e307cda6fd7eb5029ade.png\");\n\n//# sourceURL=webpack:///./src/images/icons/github-icon.png?");
 
 /***/ }),
 
-/***/ "./src/images/league-icon.svg":
-/*!************************************!*\
-  !*** ./src/images/league-icon.svg ***!
-  \************************************/
+/***/ "./src/images/icons/gmail-icon.png":
+/*!*****************************************!*\
+  !*** ./src/images/icons/gmail-icon.png ***!
+  \*****************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"5742ab2318468d569970e38ba60536f4.svg\");\n\n//# sourceURL=webpack:///./src/images/league-icon.svg?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"19f9d0647c0b8fc06c2e1b0aef79fa44.png\");\n\n//# sourceURL=webpack:///./src/images/icons/gmail-icon.png?");
 
 /***/ }),
 
-/***/ "./src/images/linkedin-icon.jpg":
-/*!**************************************!*\
-  !*** ./src/images/linkedin-icon.jpg ***!
-  \**************************************/
+/***/ "./src/images/icons/league-icon.svg":
+/*!******************************************!*\
+  !*** ./src/images/icons/league-icon.svg ***!
+  \******************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"d6f3736139a8daa94ee07e17358201c9.jpg\");\n\n//# sourceURL=webpack:///./src/images/linkedin-icon.jpg?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"5742ab2318468d569970e38ba60536f4.svg\");\n\n//# sourceURL=webpack:///./src/images/icons/league-icon.svg?");
+
+/***/ }),
+
+/***/ "./src/images/icons/linkedln-icon.png":
+/*!********************************************!*\
+  !*** ./src/images/icons/linkedln-icon.png ***!
+  \********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"c66d05019043070b0677fd3ee657f999.png\");\n\n//# sourceURL=webpack:///./src/images/icons/linkedln-icon.png?");
+
+/***/ }),
+
+/***/ "./src/images/projects/codepen/codepen-desktop-1.png":
+/*!***********************************************************!*\
+  !*** ./src/images/projects/codepen/codepen-desktop-1.png ***!
+  \***********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"985b66be88c30b928912af9304beaffd.png\");\n\n//# sourceURL=webpack:///./src/images/projects/codepen/codepen-desktop-1.png?");
+
+/***/ }),
+
+/***/ "./src/images/projects/flashcards/flashcards-desktop-1.png":
+/*!*****************************************************************!*\
+  !*** ./src/images/projects/flashcards/flashcards-desktop-1.png ***!
+  \*****************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"7e0e4e294772bfb5b63b43a42aa127da.png\");\n\n//# sourceURL=webpack:///./src/images/projects/flashcards/flashcards-desktop-1.png?");
+
+/***/ }),
+
+/***/ "./src/images/projects/flashcards/flashcards-desktop-2.png":
+/*!*****************************************************************!*\
+  !*** ./src/images/projects/flashcards/flashcards-desktop-2.png ***!
+  \*****************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"6ed96f5a71f2679b8ccd3cb2d74d1b56.png\");\n\n//# sourceURL=webpack:///./src/images/projects/flashcards/flashcards-desktop-2.png?");
+
+/***/ }),
+
+/***/ "./src/images/projects/flashcards/flashcards-mobile-1.png":
+/*!****************************************************************!*\
+  !*** ./src/images/projects/flashcards/flashcards-mobile-1.png ***!
+  \****************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"37f89c90c4850139fff6b3c2aa490e5e.png\");\n\n//# sourceURL=webpack:///./src/images/projects/flashcards/flashcards-mobile-1.png?");
+
+/***/ }),
+
+/***/ "./src/images/projects/flashcards/flashcards-mobile-2.png":
+/*!****************************************************************!*\
+  !*** ./src/images/projects/flashcards/flashcards-mobile-2.png ***!
+  \****************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"e135d28c6fa4d680b15985d90cb51e6e.png\");\n\n//# sourceURL=webpack:///./src/images/projects/flashcards/flashcards-mobile-2.png?");
+
+/***/ }),
+
+/***/ "./src/images/projects/hackinslash/hackin-desktop-1.png":
+/*!**************************************************************!*\
+  !*** ./src/images/projects/hackinslash/hackin-desktop-1.png ***!
+  \**************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"c65b1d0a73b0f7f4f881b2789ec22b38.png\");\n\n//# sourceURL=webpack:///./src/images/projects/hackinslash/hackin-desktop-1.png?");
+
+/***/ }),
+
+/***/ "./src/images/projects/league/league-desktop-1.png":
+/*!*********************************************************!*\
+  !*** ./src/images/projects/league/league-desktop-1.png ***!
+  \*********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"bf491239e05513d787518b0cd9d04892.png\");\n\n//# sourceURL=webpack:///./src/images/projects/league/league-desktop-1.png?");
+
+/***/ }),
+
+/***/ "./src/images/projects/league/league-desktop-2.png":
+/*!*********************************************************!*\
+  !*** ./src/images/projects/league/league-desktop-2.png ***!
+  \*********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"7d3cc28db9ba4f4fcc7ebcf0b0326b83.png\");\n\n//# sourceURL=webpack:///./src/images/projects/league/league-desktop-2.png?");
+
+/***/ }),
+
+/***/ "./src/images/projects/league/league-desktop-3.png":
+/*!*********************************************************!*\
+  !*** ./src/images/projects/league/league-desktop-3.png ***!
+  \*********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"6733322a9676f5787c207d218de899a8.png\");\n\n//# sourceURL=webpack:///./src/images/projects/league/league-desktop-3.png?");
+
+/***/ }),
+
+/***/ "./src/images/projects/league/league-desktop-4.png":
+/*!*********************************************************!*\
+  !*** ./src/images/projects/league/league-desktop-4.png ***!
+  \*********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"2966be75471ac1be43a402607dc28f44.png\");\n\n//# sourceURL=webpack:///./src/images/projects/league/league-desktop-4.png?");
+
+/***/ }),
+
+/***/ "./src/images/projects/league/league-mobile-1.png":
+/*!********************************************************!*\
+  !*** ./src/images/projects/league/league-mobile-1.png ***!
+  \********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"fc2ada7381ed2c2c66bac256a20702bf.png\");\n\n//# sourceURL=webpack:///./src/images/projects/league/league-mobile-1.png?");
 
 /***/ }),
 
