@@ -31,7 +31,7 @@ const config = {
     devServer: {
         contentBase: path.resolve(__dirname, 'dist'),
         compress: true,
-        port: 9001
+        port: 9002
     },
     mode: 'development'
 }
