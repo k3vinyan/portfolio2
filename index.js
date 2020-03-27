@@ -121,7 +121,6 @@ class App extends Component {
                 />
                 <Home />
                 <Work /> 
-                <About />
                 <Contact />
             </div>
         )
