@@ -107,6 +107,16 @@
   width: 100vw;
   height: 50vh;
 }
+.contact .contact-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contact .contact-info .contact-img {
+  width: 100px;
+  height: 100px;
+}
 .contact .contact-list {
   display: flex;
   flex-direction: row;

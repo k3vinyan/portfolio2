@@ -113,8 +113,6 @@ $default-margin: 10px;
             width: 800px;
             height: auto;
             object-fit: cover;
-           // border-radius: 10px;
-           // border: 5px solid white;
         }
 
         .project-info {
@@ -146,6 +144,19 @@ $default-margin: 10px;
     width: 100vw;
     height: 50vh;
 
+    .contact-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .contact-img {
+            width: 100px;
+            height: 100px;
+        }
+    }
+    
+
     .contact-list {
         display: flex;
         flex-direction: row;
@@ -157,6 +168,8 @@ $default-margin: 10px;
             padding: 0;  
 
         }
+
+       
         p.contact-name {
             margin: 0;
             padding: 0;
@@ -235,7 +248,6 @@ $red-color: #E27D60;
 
             .icon {
                 color: $green-color;
-              //  border: 5px solid black;
             }
 
             .project-image {
@@ -263,17 +275,11 @@ $red-color: #E27D60;
 .nav {
     li {
         a {
-            // font-family: 'Noto Sans', sans-serif;
-            // font-family: 'Lobster', cursive;
-            // font-family: 'Catamaran', sans-serif;
             font-family: 'Comfortaa', cursive;
             font-weight: bolder;
 
         }
-    }
-
-    
-    
+    }   
 }
 
 // ------------------------------ mobile --------------------------------------------
