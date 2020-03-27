@@ -4,13 +4,15 @@ import GithubIcon from '../images/icons/github-icon-border.png'
 import gmailIcon from '../images/icons/gmail-icon.png'
 import linkedinIcon from '../images/icons/linkedln-icon.png'
 
+import faceImg from '../images/others/face.png'
+
 const Contact = () => {
     return(
         <div className="container contact change-color" id="Contact">
             <h1 className="contact-header">Contact</h1>
             <div className="contact-info info">
-                <img  className="contact-img" src="http://via.placeholder.com/100" /> 
-                <h2 className="contact-name">Makeven Yan</h2>   
+                <img  className="contact-img" src={faceImg} /> 
+                <h2 className="contact-name">Kevin Yan</h2>   
                 <ul className="contact-list">
                     <li>
                         <a href="mailto:k3vinyan@gmail.com" target="_blank">
