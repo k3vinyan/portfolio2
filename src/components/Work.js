@@ -14,7 +14,7 @@ import codepenDesktop from '../images/projects/codepen/codepen-desktop-1.png'
 import codepenIcon from '../images/icons/codepen-icon.png'
 
 import hackinDesktop from '../images/projects/hackinslash/hackin-desktop-1.png'
-import hackinIcon from '../images/icons/hack1nslash.png'
+import hackinIcon from '../images/icons/hackin-icon.png'
 
 
 import githubIcon from '../images/icons/github-icon-border.png'
@@ -33,7 +33,7 @@ const defaultProjects = [
         appIcon: leagueIcon
     },
     {
-        title: "Flashcards",
+        title: "F-cards",
         description: ["Ipsum veniam incididunt voluptate enim laborum occaecat eiusmod dolore aliqua magna duis nostrud."],
         githubLink: "https://github.com/k3vinyan/codepen-projects",
         technologies: ["Vue", "Express", "MongoDB", "Mongoose", "JavaScript", "CSS", "HTML5", "SCSS"],
