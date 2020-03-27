@@ -7,7 +7,7 @@ import leagueIcon from '../images/icons/league-icon.svg'
 
 import flashcardDesktop from '../images/projects/flashcards/flashcards-desktop-1.png'
 import flashcardMobile from '../images/projects/flashcards/flashcards-mobile-1.png'
-import flashcardIcon from '../images/icons/codepen-icon.png'
+import flashcardIcon from '../images/icons/flashcard-icon.png'
 
 
 import codepenDesktop from '../images/projects/codepen/codepen-desktop-1.png'
@@ -16,13 +16,12 @@ import codepenIcon from '../images/icons/codepen-icon.png'
 import hackinDesktop from '../images/projects/hackinslash/hackin-desktop-1.png'
 import hackinIcon from '../images/icons/hackin-icon.png'
 
-
 import githubIcon from '../images/icons/github-icon-border.png'
 
 const defaultProjects = [
     {
         title: "League Champions Lookup",
-        description: ["An application that uses Riot Games' Data Dragon api."],
+        description: ["A web application that uses Riot Games' Data Dragon api allowing users to search their favorite league of legend champion and see their stats, lore, and many more."],
         githubLink: "https://github.com/k3vinyan/league-Search",
         appLink: "https://leaguelookup.herokuapp.com/",
         technologies: ["React", "Webpack", "JavaScript", "CSS", "HTML5", "SCSS"],
@@ -34,7 +33,7 @@ const defaultProjects = [
     },
     {
         title: "F-cards",
-        description: ["Ipsum veniam incididunt voluptate enim laborum occaecat eiusmod dolore aliqua magna duis nostrud."],
+        description: ["A web application that allows users to create flashcards.  Testing portion is still in progress!  Sorry for the inconvenience"],
         githubLink: "https://github.com/k3vinyan/codepen-projects",
         technologies: ["Vue", "Express", "MongoDB", "Mongoose", "JavaScript", "CSS", "HTML5", "SCSS"],
         appImage: {
@@ -71,11 +70,12 @@ const defaultProjects = [
     }
 ]
 
-const Project = ( {title, description, technologies, githubLink, appLink, appImage, appIcon} ) => {
+const Project = ( {title, description, technologies, githubLink, appLink, appImage, appIcon, heading} ) => {
     const { desktop, mobile } = appImage 
 
     return(
         <div className="container project change-color">
+            {heading ? <h1 className="project-heading">{heading}</h1> : ""}
             <img className="project-image" src={desktop} />
             <div className="project-info info">
             <h2>{title}</h2>
@@ -99,8 +99,9 @@ const Work = ({projects}) => {
 
     return(
         <div className="container work" id="Projects">
-            {work.map( ({title, description, technologies, githubLink, appLink, appImage, appIcon}) => 
-                <Project 
+            {work.map( ({title, description, technologies, githubLink, appLink, appImage, appIcon}, i) => {
+                return i === 0 ?
+                    <Project 
                     key ={uuidv4()} 
                     title={title} 
                     description={description} 
@@ -109,7 +110,22 @@ const Work = ({projects}) => {
                     appLink={appLink}
                     appImage={appImage}
                     appIcon={appIcon}
-                />
+                    heading = "Projects"
+                    />
+                    :
+                    <Project 
+                        key ={uuidv4()} 
+                        title={title} 
+                        description={description} 
+                        technologies={technologies}
+                        githubLink={githubLink}
+                        appLink={appLink}
+                        appImage={appImage}
+                        appIcon={appIcon}
+                    />
+
+            }
+                
             )}
         </div>
     )

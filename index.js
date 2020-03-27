@@ -6,7 +6,6 @@ import Nav from './src/components/Nav'
 import Home from './src/components/Home'
 import About from './src/components/About'
 import Work from './src/components/Work'
-import Contact from './src/components/Contact'
 
 import './src/stylesheets/style.css'
 
@@ -121,7 +120,7 @@ class App extends Component {
                 />
                 <Home />
                 <Work /> 
-                <Contact />
+                <About />
             </div>
         )
     }

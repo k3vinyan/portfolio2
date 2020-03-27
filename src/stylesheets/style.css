@@ -100,34 +100,29 @@
 
 .about {
   width: 100vw;
-  height: 50vh;
+  height: 100vh;
 }
-
-.contact {
-  width: 100vw;
-  height: 50vh;
-}
-.contact .contact-info {
+.about .about-info {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.contact .contact-info .contact-img {
+.about .about-info .about-img {
   width: 100px;
   height: 100px;
 }
-.contact .contact-list {
+.about .about-list {
   display: flex;
   flex-direction: row;
   align-items: center;
   list-style: none;
 }
-.contact .contact-list li {
+.about .about-list li {
   margin: 10px;
   padding: 0;
 }
-.contact .contact-list p.contact-name {
+.about .about-list p.about-name {
   margin: 0;
   padding: 0;
 }
@@ -161,6 +156,9 @@
   color: white;
 }
 
+.work .work-heading {
+  background-color: #41B3A3;
+}
 .work .project:nth-child(odd) {
   background-color: white;
 }

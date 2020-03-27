@@ -106,8 +106,12 @@ $default-margin: 10px;
 }
 
 .work {
-
+    
     .project {
+
+        // .project-heading {
+        //     margin-bottom: 40px;
+        // }
 
         .project-image {
             width: 800px;
@@ -135,29 +139,26 @@ $default-margin: 10px;
     height: 100vh; 
  }
  
+
+
 .about {
     width: 100vw;
-    height: 50vh;
-}
+    height: 100vh;
 
-.contact {
-    width: 100vw;
-    height: 50vh;
-
-    .contact-info {
+    .about-info {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
 
-        .contact-img {
+        .about-img {
             width: 100px;
             height: 100px;
         }
     }
     
 
-    .contact-list {
+    .about-list {
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -170,7 +171,7 @@ $default-margin: 10px;
         }
 
        
-        p.contact-name {
+        p.about-name {
             margin: 0;
             padding: 0;
         }
@@ -236,6 +237,10 @@ $red-color: #E27D60;
 }
 
 .work {
+
+    .work-heading {
+        background-color: $green-color;
+    }
     
     .project {
 

@@ -1,7 +1,7 @@
 import React from 'react'
 import { v4 as uuidv4 } from 'uuid';
 
-const Nav = ({items = ["Home", "Projects", "About", "Contact"], handleScrollTo, navIsVisible, handleNavButton}) => {
+const Nav = ({items = ["Home", "Projects", "About"], handleScrollTo, navIsVisible, handleNavButton}) => {
     return(
         <div>
             <div className={`nav ${navIsVisible ? 'slideDown' : 'slideUp'}`}>
