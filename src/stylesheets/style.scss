@@ -88,9 +88,6 @@ $default-margin: 10px;
     }
 }
 
-
-
-
 .home {
     align-items: center;
     justify-content: center;
@@ -109,9 +106,9 @@ $default-margin: 10px;
     
     .project {
 
-        // .project-heading {
-        //     margin-bottom: 40px;
-        // }
+        .project-heading {
+            margin-bottom: 40px;
+        }
 
         .project-image {
             width: 800px;
@@ -136,7 +133,11 @@ $default-margin: 10px;
 
 .project {
     width: 100vw;
-    height: 100vh; 
+    height: 100vh;
+    
+    .project-image {
+        border-radius: 5px;
+    }
  }
  
 
@@ -170,7 +171,6 @@ $default-margin: 10px;
 
         }
 
-       
         p.about-name {
             margin: 0;
             padding: 0;
@@ -255,9 +255,6 @@ $red-color: #E27D60;
                 color: $green-color;
             }
 
-            .project-image {
-                border-radius: 5px;
-            }
         }
         &:nth-child(even) {
             background-color: $green-color;
@@ -277,10 +274,6 @@ $red-color: #E27D60;
 
 // ------------------------------ Fonts --------------------------------------------
 
-.home h1, .project h2 {
-    font-family: 'Lobster', cursive;
-}
-
 .nav {
     li {
         a {
@@ -290,6 +283,28 @@ $red-color: #E27D60;
         }
     }   
 }
+
+.home h1, .project h2 {
+    font-family: 'Lobster', cursive;
+}
+
+.home {
+    .home-para {
+        font-size: 23px;
+    }
+}
+
+.project, .about {
+    .project-heading, .about-heading {
+        font-family: 'Lobster', cursive;
+        
+    }
+
+
+}
+
+
+
 
 // ------------------------------ mobile --------------------------------------------
 

@@ -82,6 +82,9 @@
   padding: 10px 20px 10px 20px;
 }
 
+.work .project .project-heading {
+  margin-bottom: 40px;
+}
 .work .project .project-image {
   width: 800px;
   height: auto;
@@ -96,6 +99,9 @@
 .project {
   width: 100vw;
   height: 100vh;
+}
+.project .project-image {
+  border-radius: 5px;
 }
 
 .about {
@@ -168,9 +174,6 @@
 .work .project:nth-child(odd) .icon {
   color: #41B3A3;
 }
-.work .project:nth-child(odd) .project-image {
-  border-radius: 5px;
-}
 .work .project:nth-child(even) {
   background-color: #41B3A3;
   color: white;
@@ -181,13 +184,21 @@
   color: black;
 }
 
+.nav li a {
+  font-family: "Comfortaa", cursive;
+  font-weight: bolder;
+}
+
 .home h1, .project h2 {
   font-family: "Lobster", cursive;
 }
 
-.nav li a {
-  font-family: "Comfortaa", cursive;
-  font-weight: bolder;
+.home .home-para {
+  font-size: 23px;
+}
+
+.project .project-heading, .project .about-heading, .about .project-heading, .about .about-heading {
+  font-family: "Lobster", cursive;
 }
 
 @media screen and (max-width: 600px) {
