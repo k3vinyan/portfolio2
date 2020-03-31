@@ -8,7 +8,7 @@ import faceImg from '../images/others/face.png'
 const About = () => {
     return(
         <div className="container about change-color" id="About">
-            <h1>Namaste</h1>
+            <h1 className="about-heading">Namaste</h1>
             <div className="about-info info">
                 <img className="about-img" src={faceImg} /> 
                 <h2 className="about-name">Kevin Yan</h2> 
