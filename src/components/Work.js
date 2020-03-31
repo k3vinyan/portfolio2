@@ -44,18 +44,6 @@ const defaultProjects = [
         appIcon: flashcardIcon
     },
     {
-        title: "Code Pen Projects",
-        description: ["Mini Projects using vanilla languages with a focus on front-end development"],
-        githubLink: "https://github.com/k3vinyan/codepen-projects",
-        technologies: ["JavaScript", "CSS", "HTML5"],
-        appImage: {
-            desktop: codepenDesktop,
-            mobile: null
-        },
-        appLink: "https://codepen.io/dashboard/",
-        appIcon: codepenIcon
-    },
-    {
         title: "Hack1n-Slash",
         description: ["Gamified coding application that allows users to improve their accuracy and speed while writing code based offof code samples fetched from public GitHub repository."],
         githubLink: "https://github.com/hdngo/TeamHACKIN",
@@ -67,6 +55,18 @@ const defaultProjects = [
         },
         appLink: "https://hack1n-slash.herokuapp.com/",
         appIcon: hackinIcon 
+    },
+    {
+        title: "Code Pen Projects",
+        description: ["Mini Projects using vanilla languages with a focus on front-end development"],
+        githubLink: "https://github.com/k3vinyan/codepen-projects",
+        technologies: ["JavaScript", "CSS", "HTML5"],
+        appImage: {
+            desktop: codepenDesktop,
+            mobile: null
+        },
+        appLink: "https://codepen.io/dashboard/",
+        appIcon: codepenIcon
     }
 ]
 
